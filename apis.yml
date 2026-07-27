@@ -1,8 +1,33 @@
 aid: headnote
 name: Headnote
-description: Headnote is a company surfaced as a portfolio company of uncork-capital and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Headnote is a legal payments and accounts-receivable platform built specifically
+  for law firms. Founded in 2016 by attorney Sarah Schaaf, it lets firms accept
+  trust-compliant credit card and eCheck (ACH) payments via shareable payment links
+  and a hosted client payment portal, then automates collections, AR tracking, and
+  client NPS/satisfaction reporting. Headnote is designed to be 100% compliant with
+  IOLTA rules, the ABA Model Rules of Professional Conduct, and lawyer trust/operating
+  account requirements across all 50 states, and integrates with existing billing and
+  practice-management software by attaching a Headnote payment link to invoices. Card
+  and bank data are tokenized with Stripe and Plaid and the platform runs on AWS with
+  PCI-compliant, encrypted-at-rest-and-in-transit infrastructure. Headnote was acquired
+  by ASG LegalTech (an Alpine Investors platform, alongside PracticePanther, Bill4Time,
+  and MerusCase) in 2020. It was surfaced in the API Evangelist network as a portfolio
+  company of Uncork Capital. Headnote does not publish a public developer API, OpenAPI,
+  or developer portal; this profile is an identity record.
 url: https://raw.githubusercontent.com/api-evangelist/headnote/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://headnote.com/assets/images/logo-without-tagline.svg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,12 +36,49 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Legal
+- LegalTech
+- Payments
+- Accounts Receivable
+- Law Firms
+- eCheck
+- ACH
+- Credit Card Payments
+- Trust Accounting
+- IOLTA
+- Compliance
 apis: []
+common:
+- type: DomainSecurity
+  url: security/headnote-domain-security.yml
+- type: Website
+  url: https://headnote.com/
+- type: About
+  url: https://headnote.com/about/
+- type: Pricing
+  url: https://headnote.com/pricing/
+- type: Blog
+  url: https://blog.headnote.com/
+- type: Support
+  url: https://headnote.com/contact/
+- type: HelpCenter
+  url: https://headnote.com/faq/
+- type: TermsOfService
+  url: https://headnote.com/terms/
+- type: PrivacyPolicy
+  url: https://headnote.com/privacy/
+- type: Compliance
+  url: https://headnote.com/security-and-compliance/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
