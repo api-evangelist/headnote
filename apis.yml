@@ -16,6 +16,17 @@ description: >-
   company of Uncork Capital. Headnote does not publish a public developer API, OpenAPI,
   or developer portal; this profile is an identity record.
 url: https://raw.githubusercontent.com/api-evangelist/headnote/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
